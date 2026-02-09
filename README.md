@@ -13,7 +13,7 @@ Open source
 ## Compiling
 To compile you need the following dependecies:
   ncurses, 
-  C++ compiler capable of c++ 17
+  C++ compiler capable of c++ 20
 
   NOTE: The source code comes with a copy of the pqxx library, 
   see their respective copyright notice at libpqxx/
@@ -41,6 +41,10 @@ make
 ```bash
 sudo make install
 ```
+
+## Configuring postresql database
+At the moment you have to configure the database. Will work on a config script
+
 
 
 
