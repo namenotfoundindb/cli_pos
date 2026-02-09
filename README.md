@@ -22,6 +22,11 @@ This project uses CMake to build.
 ### Debian/Ubunutu
 and other os's based on them
 
+Install dependencies:
+```bash
+sudo apt install libncurses-dev pq gcc
+```
+
 Download from github using git:
 ```bash
 git clone https://github.com/namenotfoundindb/cli_pos/
